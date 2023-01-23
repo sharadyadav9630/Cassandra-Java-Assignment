@@ -29,7 +29,7 @@ When application get started data in the **bird table** will be inserted by appl
 - cqlsh (cassandra query language shell) - for monitoring stored data
 
 ###  Build and Run application
-_GOTO >_ **~/absolute-path-to-directory/spring-boot-cassandra-crud**  
+_GOTO >_ **~/absolute-path-to-directory/Cassandra-java-assignment**  
 and try below command in terminal
 > **```mvn spring-boot:run```** it will run application as spring boot application
 
@@ -37,7 +37,7 @@ or
 > **```mvn clean install```** it will build application and create **jar** file under target directory
 
 Run jar file from below path with given command
-> **```java -jar ~/path-to-cassandra-java-assignment/target/cassandra-java-assignment-0.0.1-SNAPSHOT.jar```**
+> **```java -jar ~/path-to-Cassandra-java-assignment/target/Cassandra-java-assignment-0.0.1-SNAPSHOT.jar```**
 
 Or
 > run main method from `CassandraJavaAssignment.java` as spring boot application.
