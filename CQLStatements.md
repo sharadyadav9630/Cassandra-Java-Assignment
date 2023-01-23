@@ -5,6 +5,8 @@ Use this file to include your DDL.  Also include any DML that you may have creat
 
 ## DDL
 
+CREATE KEYSPACE oboe WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
+
 CREATE TABLE bird ( id UUID PRIMARY KEY, name text, bird_characteristic set<text>);
 
 CREATE TABLE scan_location ( name text PRIMARY KEY, location text);
